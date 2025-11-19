@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: fafa
-          image: docker.io/phengbunath/fafa:2
+          image: docker.io/phengbunath/fafa:1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
